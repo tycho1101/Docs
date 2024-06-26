@@ -1,5 +1,5 @@
 <!DOCTYPE root [
 <!ELEMENT root ANY >
-<!ENTITY file SYSTEM "file:///var/log/system.log">
+<!ENTITY file SYSTEM "file:///var/log/exception.log">
 ]>
 <root>&file;</root>
